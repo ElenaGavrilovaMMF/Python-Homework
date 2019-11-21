@@ -1,3 +1,5 @@
+#Вариант 4
+
 f1 = open('F1.txt', 'r')
 f2 = open('F2.txt', 'w')
 massWords = []
