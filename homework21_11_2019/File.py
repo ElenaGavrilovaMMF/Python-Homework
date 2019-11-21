@@ -11,6 +11,6 @@ for line in f1:
         if len(newLine) > len(maxWord):
             maxWord = newLine
         massWords.append(newLine)
-f1.closed()
-f2.closed()
+f1.close()
+f2.close()
 print(maxWord)
